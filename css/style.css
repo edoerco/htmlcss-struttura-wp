@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* common */
 .container {
     width: 80%;
     margin: 0 auto;
@@ -14,6 +15,7 @@
     display: table;
     clear: both;
 }
+/* / common */
 
 header {
     height: 70px;
@@ -26,6 +28,7 @@ footer {
     background-color: #8800ff;
 }
 
+/* main */
 .main-sup {
     height: 300px;
     background-color: #e1d67a;
@@ -33,6 +36,32 @@ footer {
 
 .main-inf  {
     background-color: #0286ff;
-    height: 700px;
+    height: 600px;
+    width: 100%;
     margin: 20px 0 10px 0;
 }
+/* / main */
+
+/* parte interna del main */
+.titolo {
+    height: 100px;
+    background-color: #abcfe7;
+}
+
+.sidebar,
+.center {
+    float: left;
+    background-color: #abcfe7;
+    margin-top: 20px;
+}
+
+.center {
+    width: calc(100% / 5 * 3);
+    margin: 20px;
+}
+
+.sidebar {
+    width: calc((100% / 5) - 20px);
+}
+/* / parte interna del main */
+
