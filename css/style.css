@@ -26,6 +26,7 @@ header {
 footer {
     height: 40px;
     background-color: #8800ff;
+    margin: 10px auto 40px;
 }
 
 /* main */
