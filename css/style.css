@@ -8,3 +8,31 @@
     width: 80%;
     margin: 0 auto;
 }
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    height: 70px;
+    background-color: #e47be0;
+    margin: 20px 0;
+}
+
+footer {
+    height: 40px;
+    background-color: #8800ff;
+}
+
+.main-sup {
+    height: 300px;
+    background-color: #e1d67a;
+}
+
+.main-inf  {
+    background-color: #0286ff;
+    height: 700px;
+    margin: 20px 0 10px 0;
+}
